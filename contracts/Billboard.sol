@@ -2,7 +2,7 @@
 
 // Compiler: 0.5.1
 
-pragma solidity >=0.4.22 <0.7.0;
+pragma solidity ^0.8.4;
 
 /**
  * @title Billboard

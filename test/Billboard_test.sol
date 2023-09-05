@@ -1,4 +1,7 @@
-pragma solidity >=0.4.22 <0.7.0;
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity ^0.8.4;
+
 import "remix_tests.sol"; // this import is automatically injected by Remix.
 //import "remix_accounts.sol";
 import "../contracts/Billboard.sol";
