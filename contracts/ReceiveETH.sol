@@ -23,6 +23,12 @@ contract SendETH {
 
     // 构造函数，payable使得部署的时候可以转eth进去
     constructor() payable{}
+
+    // 下面这种方式无法编译，因为 address 必须是 payable 的，才能转账
+    // constructor(uint256 _amount) payable {
+    //      (address(this)).transfer(_amount); 
+    // }
+
     // receive方法，接收eth时被触发
     receive() external payable{}
 
