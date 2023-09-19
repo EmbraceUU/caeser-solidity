@@ -1,1 +1,7 @@
 node_modules
+
+contracts/artifacts
+
+compiler_config.json
+
+.deps
